@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0BED81915137C750038666A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BED81815137C750038666A /* UIKit.framework */; };
+		E0BED81B15137C750038666A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BED81A15137C750038666A /* Foundation.framework */; };
+		E0BED81D15137C750038666A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BED81C15137C750038666A /* CoreGraphics.framework */; };
+		E0BED81F15137C750038666A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BED81E15137C750038666A /* CoreData.framework */; };
+		E0BED82515137C750038666A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0BED82315137C750038666A /* InfoPlist.strings */; };
+		E0BED82715137C750038666A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BED82615137C750038666A /* main.m */; };
+		E0BED82B15137C750038666A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BED82A15137C750038666A /* AppDelegate.m */; };
+		E0BED82E15137C750038666A /* iCardMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0BED82C15137C750038666A /* iCardMe.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0BED81415137C750038666A /* iCardMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCardMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BED81815137C750038666A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0BED81A15137C750038666A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0BED81C15137C750038666A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0BED81E15137C750038666A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E0BED82215137C750038666A /* iCardMe-Info.plist */ = {isa = PBXFileReference; path = "iCardMe-Info.plist"; sourceTree = "<group>"; };
+		E0BED82415137C750038666A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0BED82615137C750038666A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0BED82815137C750038666A /* iCardMe-Prefix.pch */ = {isa = PBXFileReference; path = "iCardMe-Prefix.pch"; sourceTree = "<group>"; };
+		E0BED82915137C750038666A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0BED82A15137C750038666A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0BED82D15137C750038666A /* iCardMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCardMe.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0BED81115137C750038666A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BED81915137C750038666A /* UIKit.framework in Frameworks */,
+				E0BED81B15137C750038666A /* Foundation.framework in Frameworks */,
+				E0BED81D15137C750038666A /* CoreGraphics.framework in Frameworks */,
+				E0BED81F15137C750038666A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0BED80915137C750038666A = {
+			isa = PBXGroup;
+			children = (
+				E0BED82015137C750038666A /* iCardMe */,
+				E0BED81715137C750038666A /* Frameworks */,
+				E0BED81515137C750038666A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0BED81515137C750038666A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0BED81415137C750038666A /* iCardMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0BED81715137C750038666A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0BED81815137C750038666A /* UIKit.framework */,
+				E0BED81A15137C750038666A /* Foundation.framework */,
+				E0BED81C15137C750038666A /* CoreGraphics.framework */,
+				E0BED81E15137C750038666A /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0BED82015137C750038666A /* iCardMe */ = {
+			isa = PBXGroup;
+			children = (
+				E0BED82915137C750038666A /* AppDelegate.h */,
+				E0BED82A15137C750038666A /* AppDelegate.m */,
+				E0BED82C15137C750038666A /* iCardMe.xcdatamodeld */,
+				E0BED82115137C750038666A /* Supporting Files */,
+			);
+			path = iCardMe;
+			sourceTree = "<group>";
+		};
+		E0BED82115137C750038666A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0BED82215137C750038666A /* iCardMe-Info.plist */,
+				E0BED82315137C750038666A /* InfoPlist.strings */,
+				E0BED82615137C750038666A /* main.m */,
+				E0BED82815137C750038666A /* iCardMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0BED81315137C750038666A /* iCardMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BED83115137C750038666A /* Build configuration list for PBXNativeTarget "iCardMe" */;
+			buildPhases = (
+				E0BED81015137C750038666A /* Sources */,
+				E0BED81115137C750038666A /* Frameworks */,
+				E0BED81215137C750038666A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCardMe;
+			productName = iCardMe;
+			productReference = E0BED81415137C750038666A /* iCardMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0BED80B15137C750038666A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E0BED80E15137C750038666A /* Build configuration list for PBXProject "iCardMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0BED80915137C750038666A;
+			productRefGroup = E0BED81515137C750038666A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0BED81315137C750038666A /* iCardMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0BED81215137C750038666A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BED82515137C750038666A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0BED81015137C750038666A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BED82715137C750038666A /* main.m in Sources */,
+				E0BED82B15137C750038666A /* AppDelegate.m in Sources */,
+				E0BED82E15137C750038666A /* iCardMe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0BED82315137C750038666A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BED82415137C750038666A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0BED82F15137C750038666A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0BED83015137C750038666A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0BED83215137C750038666A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCardMe/iCardMe-Prefix.pch";
+				INFOPLIST_FILE = "iCardMe/iCardMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0BED83315137C750038666A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCardMe/iCardMe-Prefix.pch";
+				INFOPLIST_FILE = "iCardMe/iCardMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0BED80E15137C750038666A /* Build configuration list for PBXProject "iCardMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BED82F15137C750038666A /* Debug */,
+				E0BED83015137C750038666A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BED83115137C750038666A /* Build configuration list for PBXNativeTarget "iCardMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BED83215137C750038666A /* Debug */,
+				E0BED83315137C750038666A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E0BED82C15137C750038666A /* iCardMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E0BED82D15137C750038666A /* iCardMe.xcdatamodel */,
+			);
+			currentVersion = E0BED82D15137C750038666A /* iCardMe.xcdatamodel */;
+			path = iCardMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E0BED80B15137C750038666A /* Project object */;
+}
