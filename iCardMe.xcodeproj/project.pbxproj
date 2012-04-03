@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0AADC8A1518A82600DA463B /* Journal.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AADC891518A82600DA463B /* Journal.m */; };
+		E0AADC8D1518A82600DA463B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AADC8C1518A82600DA463B /* Person.m */; };
+		E0AADC8F1518A82600DA463B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AADC8E1518A82600DA463B /* Card.m */; };
 		E0BED81915137C750038666A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BED81815137C750038666A /* UIKit.framework */; };
 		E0BED81B15137C750038666A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BED81A15137C750038666A /* Foundation.framework */; };
 		E0BED81D15137C750038666A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BED81C15137C750038666A /* CoreGraphics.framework */; };
@@ -15,21 +18,35 @@
 		E0BED82715137C750038666A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BED82615137C750038666A /* main.m */; };
 		E0BED82B15137C750038666A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BED82A15137C750038666A /* AppDelegate.m */; };
 		E0BED82E15137C750038666A /* iCardMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0BED82C15137C750038666A /* iCardMe.xcdatamodeld */; };
+		E0BED83715137EAC0038666A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BED83615137EAC0038666A /* MainStoryboard.storyboard */; };
+		E0BED83D15137FA30038666A /* UIListCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BED83C15137FA30038666A /* UIListCardViewController.m */; };
+		E0C193011518D1F4008C4F00 /* UIAddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C193001518D1F4008C4F00 /* UIAddCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0AADC881518A82600DA463B /* Journal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Journal.h; sourceTree = "<group>"; };
+		E0AADC891518A82600DA463B /* Journal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Journal.m; sourceTree = "<group>"; };
+		E0AADC8B1518A82600DA463B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E0AADC8C1518A82600DA463B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E0AADC8E1518A82600DA463B /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		E0AADC901518AA0400DA463B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		E0BED81415137C750038666A /* iCardMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCardMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BED81815137C750038666A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0BED81A15137C750038666A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0BED81C15137C750038666A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E0BED81E15137C750038666A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E0BED82215137C750038666A /* iCardMe-Info.plist */ = {isa = PBXFileReference; path = "iCardMe-Info.plist"; sourceTree = "<group>"; };
+		E0BED82215137C750038666A /* iCardMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCardMe-Info.plist"; sourceTree = "<group>"; };
 		E0BED82415137C750038666A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0BED82615137C750038666A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0BED82815137C750038666A /* iCardMe-Prefix.pch */ = {isa = PBXFileReference; path = "iCardMe-Prefix.pch"; sourceTree = "<group>"; };
-		E0BED82915137C750038666A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0BED82815137C750038666A /* iCardMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCardMe-Prefix.pch"; sourceTree = "<group>"; };
+		E0BED82915137C750038666A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0BED82A15137C750038666A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0BED82D15137C750038666A /* iCardMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCardMe.xcdatamodel; sourceTree = "<group>"; };
+		E0BED83615137EAC0038666A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E0BED83B15137FA30038666A /* UIListCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIListCardViewController.h; sourceTree = "<group>"; };
+		E0BED83C15137FA30038666A /* UIListCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIListCardViewController.m; sourceTree = "<group>"; };
+		E0C192FF1518D1F4008C4F00 /* UIAddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAddCardViewController.h; sourceTree = "<group>"; };
+		E0C193001518D1F4008C4F00 /* UIAddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAddCardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +95,11 @@
 		E0BED82015137C750038666A /* iCardMe */ = {
 			isa = PBXGroup;
 			children = (
+				E0BED83915137F0A0038666A /* Card */,
+				E0BED83815137EC70038666A /* Model */,
+				E0BED83615137EAC0038666A /* MainStoryboard.storyboard */,
 				E0BED82915137C750038666A /* AppDelegate.h */,
 				E0BED82A15137C750038666A /* AppDelegate.m */,
-				E0BED82C15137C750038666A /* iCardMe.xcdatamodeld */,
 				E0BED82115137C750038666A /* Supporting Files */,
 			);
 			path = iCardMe;
@@ -95,6 +114,47 @@
 				E0BED82815137C750038666A /* iCardMe-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0BED83815137EC70038666A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0AADC901518AA0400DA463B /* Card.h */,
+				E0BED82C15137C750038666A /* iCardMe.xcdatamodeld */,
+				E0AADC8E1518A82600DA463B /* Card.m */,
+				E0AADC8B1518A82600DA463B /* Person.h */,
+				E0AADC8C1518A82600DA463B /* Person.m */,
+				E0AADC881518A82600DA463B /* Journal.h */,
+				E0AADC891518A82600DA463B /* Journal.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0BED83915137F0A0038666A /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				E0BED8471513921D0038666A /* Add */,
+				E0BED83A15137F140038666A /* List */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		E0BED83A15137F140038666A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E0BED83B15137FA30038666A /* UIListCardViewController.h */,
+				E0BED83C15137FA30038666A /* UIListCardViewController.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		E0BED8471513921D0038666A /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				E0C192FF1518D1F4008C4F00 /* UIAddCardViewController.h */,
+				E0C193001518D1F4008C4F00 /* UIAddCardViewController.m */,
+			);
+			name = Add;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BED82515137C750038666A /* InfoPlist.strings in Resources */,
+				E0BED83715137EAC0038666A /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +222,11 @@
 				E0BED82715137C750038666A /* main.m in Sources */,
 				E0BED82B15137C750038666A /* AppDelegate.m in Sources */,
 				E0BED82E15137C750038666A /* iCardMe.xcdatamodeld in Sources */,
+				E0BED83D15137FA30038666A /* UIListCardViewController.m in Sources */,
+				E0AADC8A1518A82600DA463B /* Journal.m in Sources */,
+				E0AADC8D1518A82600DA463B /* Person.m in Sources */,
+				E0AADC8F1518A82600DA463B /* Card.m in Sources */,
+				E0C193011518D1F4008C4F00 /* UIAddCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +330,7 @@
 				E0BED83315137C750038666A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

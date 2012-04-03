@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11D50b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Card" representedClassName="Card" syncable="YES">
+        <attribute name="active" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="number" attributeType="String" maxValueString="15" syncable="YES"/>
+        <relationship name="journal" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="card" inverseEntity="Journal" syncable="YES"/>
+        <relationship name="person" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="card" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Journal" representedClassName="Journal" syncable="YES">
+        <attribute name="dateTime" attributeType="Date" syncable="YES"/>
+        <relationship name="card" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Card" inverseName="journal" inverseEntity="Card" syncable="YES"/>
+        <relationship name="person" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="journal" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="firstName" attributeType="String" maxValueString="100" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" maxValueString="100" syncable="YES"/>
+        <attribute name="middleName" optional="YES" attributeType="String" maxValueString="100" syncable="YES"/>
+        <relationship name="card" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Card" inverseName="person" inverseEntity="Card" syncable="YES"/>
+        <relationship name="journal" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="person" inverseEntity="Journal" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Card" positionX="-27" positionY="9" width="128" height="105"/>
+        <element name="Journal" positionX="-209" positionY="9" width="128" height="90"/>
+        <element name="Person" positionX="-216" positionY="180" width="128" height="120"/>
+    </elements>
 </model>
